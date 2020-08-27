@@ -85,7 +85,8 @@
     flex-direction: column;
 }
 #password,#username{
-    margin-right: 20vw ;
+    margin-right: 10vw ;
+matgin-left:10vw;
 }
 footer{
     display: flex;
@@ -104,7 +105,7 @@ body::before{
     top: 0px;
     left: 0px;
     background: url("../Wallpaper/wal5.jpg")no-repeat center center/cover;
-    height: 730vh;
+    height: 330vh;
     width: 100vw;
     z-index: -1;
 }
