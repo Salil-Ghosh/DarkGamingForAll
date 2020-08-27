@@ -4,7 +4,7 @@
 .subtitle{
     display: none;
 }
-.glow{
+/* .glow{
     text-align: center;
     font-size: larger;
     height: 40%;
@@ -12,7 +12,7 @@
     margin:auto;
     margin-left: 40vw;
     
-}
+} */
 #navbar{
     flex-direction: column;
     flex-wrap: wrap;
@@ -30,12 +30,15 @@
 }
 #navbar p{
     text-align: center;
+    background-color: white;
+    color: black;
+    font-size:50px;
 }
 #search{
     margin-right: auto;
 }
 .glitch{
-    margin-top: 100vh;
+    display:none;
 }
 #logo img{
     margin-right: 10vw;
