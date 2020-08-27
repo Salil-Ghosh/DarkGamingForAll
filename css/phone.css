@@ -30,9 +30,12 @@
 }
 #navbar p{
     text-align: center;
-    background-color: white;
-    color: black;
-    font-size:50px;
+    background-color: #613131;
+    color: #e4ff01;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 30px;
+    box-shadow: 5px 5px;
 }
 #search{
     margin-right: auto;
