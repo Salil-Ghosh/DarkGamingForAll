@@ -105,7 +105,7 @@ body::before{
     top: 0px;
     left: 0px;
     background: url("../Wallpaper/wal5.jpg")no-repeat center center/cover;
-    height: 400vh;
+    height: 600vh;
     width: 100vw;
     z-index: -1;
 }
