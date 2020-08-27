@@ -115,3 +115,6 @@ body::before{
     width: 100vw;
     z-index: -1;
 }
+#allsection{
+    margin-top: 80vh;
+}
