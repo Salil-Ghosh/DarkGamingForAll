@@ -1,0 +1,88 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+section h1{
+    text-align: center;
+    background-color: tomato;
+    margin: 0px;
+    padding:0px;
+    font-size: 30px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+form label{
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: #abff00;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #ef0404;
+    cursor: pointer;
+    padding: 6px;
+    
+    display: inline-block;
+    margin: 11px;
+}
+form input,textarea{
+    height: 31px;
+    width: 217px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: cursive;
+    transition: all 0.5s ease-in-out 0.3s;
+}
+form input,textarea:hover{
+    transform: scale(1.08);
+    background-color: rgb(218, 194, 194);
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#password,#email{
+    margin-left: 22px;
+  }
+#number{
+    padding-left: 26px;
+    margin-left: 2px;
+}
+#name{
+    margin-left: 40px;
+}
+.btn{
+    display: block;
+    width: 142px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 5px black;
+    cursor: pointer;
+    padding: 7px;
+    transition: all 0.5s ease-in-out 0.3s;
+}
+.btn:hover{
+    transform: scale(1.08);
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  
+  }
+  section::before{
+      content: "";
+      background: url("../Wallpaper/Wal6.jpg")no-repeat center center/cover;
+      position: absolute;
+      top:0px;
+      left: 0px;
+      height:100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 1;
+  }
+  
